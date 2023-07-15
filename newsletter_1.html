@@ -1,1156 +1,1016 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8;" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="light dark" />
-    <meta name="supported-color-scheme" content="light dark" />
-
-    <title>Japan Bliss</title>
-
-    <style type="text/css">
-      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
-      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
-
-      body {
-        margin: 0;
-        background-color: #cccccc;
-      }
-
-      table {
-        border-spacing: 0;
-      }
-
-      td {
-        padding: 0;
-      }
-
-      p {
-        font-size: 16px;
-      }
-
-      img {
-        border: 0;
-      }
-
-      .wrapper {
-        width: 100%;
-        table-layout: fixed;
-        background-color: #cccccc;
-        padding-bottom: 40px;
-        padding-top: 30px;
-      }
-
-      .main {
-        margin: 0 auto;
-        width: 100%;
-        max-width: 600px;
-        background-color: #ffffff;
-        border-spacing: 0;
-        font-family: sans-serif;
-        color: #4a4a4a;
-      }
-
-      .two-columns {
-        font-size: 0;
-        text-align: center;
-        padding: 35px 0 40px;
-      }
-
-      .two-columns .column {
-        width: 100%;
-        max-width: 300px;
-        display: inline-block;
-        vertical-align: top;
-      }
-
-      .two-columns .padding {
-        padding: 20px;
-      }
-
-      .two-columns .content {
-        font-size: 15px;
-        text-align: left;
-        line-height: 20px;
-        font-weight: 500;
-      }
-
-      .button {
-        background-color: #1e5e7b;
-        color: #ffffff;
-        text-decoration: none;
-        padding: 12px 20px;
-        border-radius: 8px;
-        font-weight: bold;
-        letter-spacing: 0.5px;
-      }
-
-      .two-columns.last {
-        padding: 0 !important;
-      }
-
-      a {
-        text-decoration: none;
-        color: #37cbbf;
-      }
-
-      @media screen and (max-width: 599.98px) {
-        .two-columns .padding {
-          padding-right: 0 !important;
-          padding-left: 0 !important;
-        }
-
-        .one-column .text {
-          align-items: left !important;
-          text-align: left !important;
-        }
-
-        .text-padding {
-        max-width: 280px !important;
-        padding-left: 40px !important;
-        padding-right: 40px !important;
-        padding-bottom: 30px !important;
-        }
-
-        .full-width {
-        padding-top: 0px !important;
-        margin-top: 0px !important;
-        width: 100% !important;
-        min-width: 100% !important;
-        max-width: 100% !important;
-      }
-
-      .full-block {
-        padding-top: 10px !important;
-        display: block !important;
-        text-align: center !important; 
-        align-items: center !important;
-      }
-
-      .full-block-280 {
-        max-width: 280px !important;
-        margin-top: 10px !important;
-        padding-left: 55px !important;
-        padding-top: 20px !important;
-        padding-bottom: 10px !important;
-        display: block !important;
-        text-align: left !important; 
-        align-items: center !important;
-      }
-
-      .none {
-        display: none !important;
-      }
-
-      img.content {
-        border: 0px !important;
-        padding-top: 20px !important;
-        width: 440px !important;
-        max-width: 440px !important;
-        margin: 0 auto !important;
-      }
-
-      .image-row-gap {
-        display: none !important;
-      }
-
-      hr.heading-line {
-        width: 280px !important;
-        max-width: 100% !important;
-        margin: 0 auto !important;
-
-      }
-
-
-      .line {
-        display: block !important;
-      max-width: 50% !important;
-      margin-left: 46px !important;
-      max-width: 260px !important;
-         
-      }
-
-      hr {
-        width: 50% !important;
-        text-align: left !important;
-        margin-left: 0px !important;
-   
-      }
-
-      .sm-text-padding {
-        padding-left: 40px !important;
-        padding-right: 40px !important;
-        padding-bottom: 15px !important;
-      }
-      }
-
-    
-
-      @media screen and (max-width: 582px) {
-        .line {
-      
-      display: block !important;
-      max-width: 50% !important;
-      margin-left: 46px !important;
-      max-width: 260px !important;
-         
-      }
-
-      hr {
-        width: 50% !important;
-        text-align: left !important;
-        margin-left: 0px !important;
-   
-      }
-      }
-
-
-
-
-      @media screen and (max-width: 563px) {
-        .line {
-      
-      display: inline-block !important;
-      max-width: 100% !important;
-      margin-left: 39px !important;
-      max-width: 260px !important;
-         
-      }
-
-      hr {
-        width: 50% !important;
-        text-align: left !important;
-        margin-left: 0px !important;
-   
-      }
-      }
-
-
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Candy Shop Template</title>
   
+    <!--[if mso]> 
 
-      @media screen and (max-width: 551px) {
-        .line {
-      display: inline-block !important;
-      max-width: 100% !important;
-      margin-left: 30px !important;
-      max-width: 260px !important;
-         
-      }
+      <style type="text/css"> 
+      table {border-collapse:collapse;border:0;border-spacing:0;margin:0;} 
+      div, td {padding:0;} 
+      div {margin:0 !important;} 
+      </style> 
 
-      hr {
-        width: 50% !important;
-        text-align: left !important;
-        margin-left: 0px !important;
+      <noscript> 
+      <xml> 
+      <o:OfficeDocumentSettings> 
+      <o:PixelsPerInch>96</o:PixelsPerInch> 
+      </o:OfficeDocumentSettings> 
+      </xml> 
+      </noscript> 
+
+      <![endif]-->
+  
+    <!--[if mso]> 
+      <style type="text/css">
+		table, tr, td {
+		border-collapse: collapse;
+margin:0;
+padding:0;
+
+		  background-color: #0D051C !important;
+		}
+    body {
    
-      }
-      } 
-    
+background-color: #0D051C !important;
+    }
 
+		.table-line {
+		margin-left: 10px !important;
+		margin-left: 10px !important;
+		}
 
-      @media screen and (max-width: 399.98px) {
-        .two-columns .padding {
-          padding-right: 0 !important;
-          padding-left: 0 !important;
+		.outlook-button  {
+		mso-border-radius-alt: 5px !important;
+		}
+
+		darkmode-outlook-button {
+	
+		}
+
+      </style>
+    <![endif]--> 
+	<style type="text/css">
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Oranienbaum&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap');
+          table, td, div, h1, p {font-family: "Roboto",Arial, sans-serif;}
+          table, td {padding: 0, margin:0;  }
+
+        
+          body, html {
+          margin: 0;
+          background-color: #cccccc;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
         }
 
-        .one-column .text {
-          align-items: left !important;
-          text-align: left !important;
+      
+          table {
+          border-spacing: 0;
+          }
+
+          td {
+          padding: 0;
+          }
+        h1,h2,h3 {
+          font-family: font-family: 'Caprasimo', cursive, san-serif;
         }
 
-        .text-padding {
-        max-width: 280px !important;
-        padding-left: 40px !important;
-        padding-right: 40px !important;
-        padding-bottom: 30px !important;
+          img {
+            border: 0;
+            -ms-interpolation-mode: bicubic;
+
+          }
+        
+        	span .email {
+            color: #000000 !important;
+          	text-decoration: none !important;
+          }
+        
+        
+          a[x-apple-data-detectors],
+        	u + #body a,
+        	#MessageViewBody a
+        {
+          color: inherit !important;
+          text-decoration: none !important;
+          font-size: inherit !important;
+          font-family: inherit !important;
+          font-weight: inherit !important;
+          line-height: inherit !important;
+        }
+        
+        :root {
+          color-scheme: light dark;
+          supported-color-schemes: light dark;
+        }
+        
+        /* Dark Mode media queries to target Apple and iOS*/
+          @media (prefers-color-scheme: dark) {
+            /* Custom Dark Mode Background Color */
+
+            /* <!--[if mso]>
+            body {
+              background-color: #0D051C !important;
+            }
+              center, table,td, div {
+              background: #0D051C !important;
+              color: #ffffff!important;
+              border: none !important;
+            }    
+            p {
+               color: #0D051C !important;
+            }
+            
+            hr {
+              background: #FBCB04 !important;
+              color: #FBCB04!important;
+            }
+            .line {
+              border-bottom:  #ffffff!important;
+            }
+          
+    <![endif]-->  */
+            
+            
+              body, center, table,td, div {
+          	 background: #0D051C !important;
+              color: #ffffff!important;
+              border: none !important;
+            }             	 
+       			
+            
+            html {
+              background: #000000 !important;
+            }
+            
+            body, center, table,td, div {
+              background: #0D051C !important;
+              color: #ffffff!important;
+              border: none !important;
+            } 
+            
+            	[data-ogsc] body,
+             	[data-ogsc] center,
+             	[data-ogsc] table,
+             	[data-ogsc] td,
+            	[data-ogsc] div
+            {
+              background: #0D051C !important;
+              color: #ffffff!important;
+              border: none !important;
+            }            
+            
+              [data-ogsb] body,
+             	[data-ogsb] center,
+             	[data-ogsb] table,
+             	[data-ogsb] td,
+            	[data-ogsb] div {
+              background: #333 !important;
+              color: #ffffff!important;
+              border: none !important;
+            }
+            
+            [data-ogsc] .line {
+               color: #F7F8F9!important;
+            }
+            
+             [data-ogsb] .line {
+               color: #F7F8F9!important;
+            }
+            
+            .spacer {
+              color: #0D051C !important;
+              background: #0D051C !important;
+            }
+
+           /* Custom Dark Mode Font Colors */ 
+           h1, h2, h3, span,    {
+            color: #ffffff !important;
+             
+           }
+            
+           a, p {
+              color:#ffffff !important;
+            }
+          
+           a {
+             background: transparent !important;
+              /* background: #4e4e4e !important; */
+          
+            }
+            
+            hr {
+              border: 1px solid #FFCC00 !important;
+            }
+            
+            .line {
+              width: 90% !important;
+            color:#FFCC00 !important;
+    				background: #FFCC00 !important;
+           
+           }
+            
+            .horizontal-line {
+            color:#F7F8F9 !important;
+    				background: #F7F8F9 !important;
+              height: auto !important;
+            }
+
+      
+          .icons {
+              filter: brightness(0) invert(1);
+           }
+            
+            a[class=button-border] {
+              border: 1px solid #ffffff !important;
+            }
+            
+            
+          img[class=icons-background] {
+              background: transparent !important;
+          }
+            
+       		.email {
+            color: #ffffff !important;
+          	text-decoration: none !important;
+          }
+            
+           .darkmode-transparent {
+              background-color: transparent!important;
+          }
+           .darkmode-logo-bg {
+              background-color: #FFCC00   !important;
+            }
+          	.padding-20 {
+			padding: 20px;
+			}
         }
 
-        .full-width {
-        padding-top: 0px !important;
-        margin-top: 0px !important;
-        width: 100% !important;
-        min-width: 100% !important;
-        max-width: 100% !important;
-      }
-
-      .full-block {
-        padding-top: 10px !important;
-        display: block !important;
-        text-align: center !important; 
-        align-items: center !important;
-      }
-
-      .full-block-280 {
-        max-width: 300px !important;
-        margin-top: 10px !important;
-        margin: 0px !important;
-        padding-left: 85px !important;
-        padding-top: 20px !important;
-        padding-bottom: 10px !important;
-        display: block !important;
-        text-align: left !important; 
-        align-items: center !important;
-      }
-
-      .none {
-        display: none !important;
-      }
-
-      img.content {
-        border: 0px !important;
-        padding-top: 15px !important;
-        margin-left: 1px !important;
-        width: 380px !important;
-        max-width: 380px !important;
-        margin: 0 auto !important;
-      }
-
-      .image-row-gap {
-        display: none !important;
-      }
-
-      hr.heading-line {
-        width: 280px !important;
-        max-width: 100% !important;
-        margin: 0 auto !important;
-
-      }
-
-      .line {
-      display: inline-block !important;
-      max-width: 100% !important;
-      margin-left: 56px !important;
-      max-width: 260px !important;
-         
-      }
-
-      hr {
-        width: 50% !important;
-        text-align: left !important;
-        margin-left: 0px !important;
-   
-      }
-
-      .sm-text-padding {
-        padding-left: 40px !important;
-        padding-right: 40px !important;
-        padding-bottom: 15px !important;
+        
+        
+        @media (max-width: 350px) {
+     				#social-media img {
+						max-width: 25px !important;
+					}
+          .two-col .column {
+            max-width: 97% !important;
+          }
+          
+        .image-block{
+        		width:100% !important;
+          }
+          
+          
+          h1 {
+            font-size: 28px !important;
+          }
+          
+          .line {
+          width: 90% !important;
+       
+          }
+      		.hero-heading {
+          font-size: 22px !important;
+          }
+          
+          .five-col {
+            display:inline-block !important;
+            width: 90% !important;
+          }
+           	
       }
         
+  
+        
+      
+        @media (min-width: 350px) and (max-width: 460px) {
+      			#social-media img {
+						max-width: 25px !important;
+					}
+          
+           .two-col .column {
+            max-width: 95% !important; 
+          }
+          
+        	.image-block{
+        		width:100% !important;
+          }
+          
+          h1 {
+            font-size: 32px !important;
+          }
+          
+           .line {
+            width: 90% !important;
+          }
+					
+          .hero-heading {
+            font-size: 22px !important;
+          }
+   
+        .five-col {
+             display:inline-block !important;
+           width: 90% !important;
+          }
+        
       }
+        
+        
+        
+        
+        
+        @media (min-width: 460px) {
+          .two-col .column {
+            max-width: 49% !important;
+            
+          }
+     
+          .line {
+         	 width: 95% !important;
+          }            
+        }
+          
+          
+          @media (min-width: 460px) and (max-width: 600px) {
+   				.two-col .column {
+            width: 50% !important;
+            
+          }
+         
+          }
+                 
+        }
+	</style>
 
-      @media (prefers-color-scheme: dark) {
-      }
-    </style>
-
-    <!--[if (gte mso 9 | (IE)]>
-      <style type="text/css"
-        table {border-collapse: collapse !important;}
-      </style>
-    <![endif]-->
-
-  </head>
-
-  <body style="Margin:0; padding: 0; min-width: 100%; background-color: #dde0e1;">
-      <!--[if (gte mso 9 | (IE)]>
-      <style type="text/css"
-        body {background-color: #dde0e1 !important;}
-        body, table, td, p, a {font-family: sans-serif, Arial, Helvetica !important;}
-      </style>
-      <![endif]-->
-
-    <center class="wrapper"
-      style="width: 100%; table-layout: fixed; padding-bottom: 40px; padding-top: 20px; background-color: #dde0e1;"
-    >
-    <div style="max-width: 600px; background-color: #ffffff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
-
-      <!-- Preheader ( remove comment)-->
-      <div style="font-size:0px; color: #ffffff; line-height: 1px; mso-line-height-rule: exactly; display: none; max-width: 0px; max-height: 0px; opacity: 0; overflow: hidden; mso-hide:all;">
-        Get the latest Japan Travel news this month.
-      </div>
-      <!-- End Preheader (remove comment)-->
-
-
-      <!-- Main Table ( remove comment ) -->
-      <!--[if (gte mso 9 | (IE)]>
-        <table width="600" align="center" style="border-spacing:0; color: #565656;" role="presentation">
-          <tr>
-          <td style="padding: 0;">
-      <![endif]-->
-
-    <table
-      class="main"
-      align="center"
-      border="0"
-      cellpadding="0"
-      cellspacing="0"
-      width="600px"
-      border-spacing="0"
-      style="
-        color: #565656;
-        font-family: 'Noto Sans', sans-serif, Arial, Helvetica !important;
-        background-color: #ffffff;
-        Margin: 0;
-        padding: 0;
-        width: 100%;
-        max-width: 600px;
-      "
-      role="presentation">
-
-
-        <!-- START OF HEADER-->
-        <tr>
-          <td align="center" style="padding-top: 25px;">
-            <table 
-            width = "100%" 
-            style="border-spacing:0;" 
-            role="presentation"   
-            align="center"
-            border="0"
-            cellpadding="0"
-            cellspacing="0">
-              <tr>
+ 
+</head>
+<body style="margin:0;padding:0;word-spacing:normal;">
+  <!-- below div is the outer wrapper, role=article and aria-roledescription=email helps screen readers announce its an email or at least an article and will assist navigation b-->
+    <div role="article" aria-roledescription="email" lang="en" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+        <table role="presentation" style="width:100%;border:0;border-spacing:0;">
+            <tr>
                 <td align="center">
-                  <a href="#" target="_blank">
-                    <img src="https://i.ibb.co/XZdWhyq/logo-transparent.png" alt="logo-transparent" border="0" height="100">
-                  </a>
-                </td>
-              </tr>    
-            </table>
-          </td>
-        </tr>
+                  <!--[if mso]>
+                    <table role="presentation" align="center" style="width:600px"
+                    <tr>
+                    <td style="padding: 20px 0">
+                  <![endif]-->
+                      <div class="outer" style="width:100%; max-width: 600px; margin:20px auto;background-color:#0B0019; ">
+                      <!-- white space break -->
+                  <!--<div class="spacer" style="line-height: 10px; height: 2px; mso-line-height-rule: exactly;">&nbsp;</div> -->
 
+                           
+                      <!-- Single Column Header Logo -->
+                            <!--[if mso]>
+                    <table role="presentation" align="center" width="240">
+                    <tr>
+                    <td style="">
+                  <![endif]-->
+                      <table class="darkmode-logo-bg" role="presentation" style="width:100%; border:0; border-spacing:0;" cellpadding="0" cellspacing="0" bgcolor="#FFCC00">
+                        <tr>
+                          <td class="darkmode-logo-bg" align="center" style=" width: 100%;" >
+                            <a href="#" target="_blank">
+                              <img src="https://i.ibb.co/SQs5X0z/SHOE-1.png" alt="logo-transparent"  width="240" height="auto" >
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                               <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                      <![endif]-->
+                        
+                        <!-- Single Column Plan Your Vacation -->
+                      <table width="90%" role="presentation" style="width:100%; border:0; border-spacing:0;" cellpadding="0"
+                      cellspacing="0" bgcolor="#0B0019" >
+                        <tr>
+                          <td>
+                            <table align="center" role="presentation" cellpadding="0" cellspacing="0">
+                            <tr>
+                          <td height="28" align="center" style="line-height:24px;padding: 2px;mso-padding-top-alt:15px; mso-padding-bottom-alt: 15px; padding-top: 15px;padding-bottom: 15px;">
+                            <p class="hero-heading" style="
+                       	line-height:24px;
+                            font-weight: 400;
+                            font-size: 28px;
+                            font-family: 'Caprasimo', sans-serif; 
+                            color: #F4F3EB;">Plan your next Japan vacation</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" style="padding: 2px;font-family: Arial, sans-serif; text-align:center">
+                            <img class="hero-img"
+                            src="https://i.ibb.co/s2mYN5G/hero-image.jpg" 
+                            alt="hero-image" 
+                            border="0"
+                            width="90%"
+                            height="auto"
+                            border="0"
+                            style="display: inline-block; border: none; border-radius: 3px"
+                          />
+                            </td>
+                        		</tr>
+                          </table>
+                            </td>
+                        </tr>
+                      </table>
+                        
+                        
 
-        <tr>
-          <td align="center">
-            <table width="100%"   
-            width = "100%" 
-            style="border-spacing:0;" 
-            role="presentation"   
-            align="center"
-            border="0"
-            cellpadding="0"
-            cellspacing="0"   >
+                        
+               <!-- white space break -->
+              <table bgcolor="" width="100%" cellpadding="0" cellspacing="0" role="presentation" bgcolor="#0D051C" style="mso-shader:#0D051C;background-color: #0D051C; ">
                 <tr>
-                  <td align="center">
-                    <p
-                    style="
-                      padding-top: 5px;
-                      font-family: 'Lato';
-                      line-height: 1;
-                      font-weight: 400;
-                      font-size: 18px;
-                      color: gray;
-                    "
-                  >
-                    Plan your next Japan vacation
-                  </p>
+                  <td bgcolor="" height="20" style="mso-shader:#0D051C; line-height:20px;mso-line-height-rule:exactly;">
+                    &nbsp;
                   </td>
                 </tr>
-            </table>
-          </td>
-        </tr>
-        <!-- END OF HEADER-->
+              </table>
+                        
+                  <!-- Single Column Main Article -->
+                        <table class="main-article" bgcolor="#0D051C" align="center"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        width="100%">
+                          <tr>
+                            <td align="center" style="Margin: 0;  line-height: 27px; font-size: 15px; font-weight: normal; font-family: Lato, sans-serif;padding-top: 30px; color: #F4F3EB; mso-shading:#0D051C; padding-left:25px; padding-right:25px;">
+                              <p style="Margin: 0;" >
+                                From the bustling streets of Tokyo to the tranquil countryside, there is something for everyone to enjoy in this fascinating country. Immerse yourself in the unique culture, try delicious local cuisine, and explore the beautiful temples and gardens. Come and experience the magic of Japan for yourself.
+                                </p>
+                            </td>
+                          </tr>
+                        </table>
 
+                         <table bgcolor="#0D051C"
+                        width = "100%" 
+                        style="border-spacing:0;mso-shading:#0D051C" 
+                        role="presentation"   
+                        align="center"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0">
+                            <tr>
+                              <td width="80px" height="25" style="line-height:25px;">&nbsp;</td>
+                            </tr>
+                        </table>
+                        
+                        
+           <!-- horizontal line break v3 -->
+                      <table width="95%" border="0" cellpadding="0" cellspacing="0" align="center"  style="margin:0 auto;" class="line">
+                        <tr>
+                          <td  class="line" height="1" style="line-height: 1px;font-size:20px;border-bottom: 2px solid #FBCB04; "  > </td>
+                        </tr>
+                      </table>
+								
+                        
+                        
+              <!-- Two column row #1 Arima  --> 
+           		<div align="center" class="two-col" style="text-align: center; font-size:0 "> <!-- font size 0 so that column can sit side by side -->
+                      <!--[if mso]>
+                        <table role="presentation" width="100%">
+                        <tr>
+                        <td style="width:50%; padding: 10px;" valign="middle">
+                      <![endif]-->
+                      <div   class="column" style="padding-top:10px;padding-bottom:10px;mso-padding-bottom-alt: 2px;width: 100%; max-width: 290px; display:inline-block; vertical-align:middle; ">
+                       <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                         <tr>
+                           <td align="center">
+                              
+                            <img align="center" class="image-block" src="https://i.ibb.co/SKvHsmd/ryokan.jpg" width="260" alt="ryokan" style="display:inline-block;width:280px;max-width:95%;height:auto; text-align: center; margin: 0 auto;"/>
+                          
+                      
+                           </td>
+                         </tr>
+                        </table>
+                        
+                      </div>
+                      <!--[if mso]>
+                        </td>
+                        <td style="width:50%;" valign="middle">
+                      <![endif]-->
+                      <div  class="column" style="padding-top:10px;padding-bottom:10px;mso-padding-bottom-alt: 2px; width: 100%; max-width: 280px; display:inline-block; vertical-align:top; text-align: left;mso-padding-top-alt:-2px;">
+                       <div style="padding:10px; padding-bottom: 5px;font-size:14px;line-height:18px;text-align:left;">
+                          <h4 class="one-column text" style="Margin: 0; letter-spacing: 1.2px;  text-transform: uppercase;color:#F4F3EB ;font-family: Poppins, sans-serif; font-size: 21px; font-weight: bold; line-height: 1;margin-top: 5px;">Arima</h4>
+                          <p style= "Margin: 0; color: #F4F3EB; font-family: Poppins, sans-serif; font-size: 16px;
+                          margin-top: 15px;padding-bottom: 18px;mso-margin-bottom-alt:15px;
+                           font-weight: normal; line-height: 25px;">
+                           Discover the famous ancient hot spring town steeped with a rich history.
+                          </p>
+                           <!-- Read More Button-->
+                          <div align="left" role="presentation" style="">
+                            <!--[if mso]>
+                              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" 
+                                href="http://www.https://visit.arima-onsen.com/"
+                                style="height:40px;v-text-anchor:middle;width:120px;font-size:15px;" 
+                                arcsize="8%" 
+                                stroke="f" 
+                                fillcolor="#FBCB04">
+                              <w:anchorlock/>
+                              <center>
+                            <![endif]-->
+                            <a class="button-border"  href="http://www.https://visit.arima-onsen.com/" style="background-color:#FBCB04;border-radius:5px;color:#0D051C;display:inline-block;font-family:Lato,sans-serif;font-size:15px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:120px;-webkit-text-size-adjust:none; ">Read More
+                            </a>
+                              <!--[if mso]>
+                              </center>
+                            </v:roundrect>
+                            <![endif]-->
+                            </div>        
+                         </div>
+                      </div>
+                      <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                      <![endif]-->
+                    </div>
+                        
+                     <!-- horizontal line break v3 -->
+                    <table width="95%" border="0" cellpadding="0" cellspacing="0" align="center"  style="margin:0 auto;" >
+                      <tr>
+                        <td class="line" height="1" style="line-height: 1px;font-size:20px;border-bottom: 2px solid #FBCB04; mso-line-height-rule:exactly;"  > </td>
+                      </tr>
+                    </table>
+                        
+                        
+                        
+                    <!-- Two column row #2 Kyoto  --> 
 
-
-        <!-- START OF HERO  -->
-        <tr>
-          <td align="center" style="padding-top: 10px">
-            <table
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="90%"
-            >
-                <tr>
-                  <td align="center">
-                    <img 
-                      src="https://i.ibb.co/s2mYN5G/hero-image.jpg" 
-                      alt="hero-image" 
-                      border="0"
-                      class="img"
-                      width="540px"
-                      style="display: block; border: none; border-radius: 3px"
-                    />
-                  </td>
-                </tr>
-            </table>
-          </td>
-        </tr>
-        <!-- END OF HERO  -->
-
-       
-
-        <!-- START OF MAIN ARTICLE -->
-         <tr>
-           <td align="center" style="padding-top: 20px">
-             <table 
+           					<div align="center" class="two-col" style="text-align: center; font-size:0 "> <!-- font size 0 so that column can sit side by side -->
+                      <!--[if mso]>
+                        <table role="presentation" width="100%">
+                        <tr>
+                        <td style="width:50%; padding: 10px;" valign="middle">
+                      <![endif]-->
+                      <div   class="column" style="padding-top:10px;padding-bottom:10px;mso-padding-bottom-alt: 2px;width: 100%; max-width: 290px; display:inline-block; vertical-align:middle; ">
+                       <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                         <tr>
+                           <td align="center">
+                              
+                            <img align="center" class="image-block" src="https://i.ibb.co/HPK7xXq/kyoto.jpg" width="260" alt="kyoto" style="display:inline-block;width:280px;max-width:95%;height:auto; text-align: center; margin: 0 auto;"/>
+                          
+                      
+                           </td>
+                         </tr>
+                        </table>
+                        
+                      </div>
+                      <!--[if mso]>
+                        </td>
+                        <td style="width:50%;" valign="middle">
+                      <![endif]-->
+                      <div  class="column" style="padding-top:10px;padding-bottom:10px;mso-padding-bottom-alt: 2px; width: 100%; max-width: 280px; display:inline-block; vertical-align:top; text-align: left;mso-padding-top-alt:-2px;">
+                       <div style="padding:10px; padding-bottom: 5px;font-size:14px;line-height:18px;text-align:left;">
+                          <h4 class="one-column text" style="Margin: 0; letter-spacing: 1.2px;  text-transform: uppercase;color:#F4F3EB ;font-family: Poppins, sans-serif; font-size: 21px; font-weight: bold; line-height: 1;margin-top: 5px;">Kyoto</h4>
+                          <p style= "Margin: 0; color: #F4F3EB; font-family: Poppins, sans-serif; font-size: 16px;
+                          margin-top: 15px;padding-bottom: 18px;mso-margin-bottom-alt:15px;
+                           font-weight: normal; line-height: 25px;">
+The former imperial capital of Japan, is a city filled with rich beauty and history.                         
+                          </p>
+                           <!-- Read More Button-->
+                          <div align="left" role="presentation" style="">
+                            <!--[if mso]>
+                              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" 
+                                href="http://www.https://visit.arima-onsen.com/"
+                                style="height:40px;v-text-anchor:middle;width:120px;font-size:15px;" 
+                                arcsize="8%" 
+                                stroke="f" 
+                                fillcolor="#FBCB04">
+                              <w:anchorlock/>
+                              <center>
+                            <![endif]-->
+                            <a class="button-border"  href="http://www.https://visit.arima-onsen.com/" style="background-color:#FBCB04;border-radius:5px;color:#0D051C;display:inline-block;font-family:Lato,sans-serif;font-size:15px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:120px;-webkit-text-size-adjust:none; ">Read More
+                            </a>
+                              <!--[if mso]>
+                              </center>
+                            </v:roundrect>
+                            <![endif]-->
+                            </div>        
+                         </div>
+                      </div>
+                      <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                      <![endif]-->
+                    </div>
+                      
+                        
+                        
+                      <!-- horizontal line break v3 -->
+                      <table width="95%" border="0" cellpadding="0" cellspacing="0" align="center"  style="margin:0 auto;" class="line">
+                        <tr>
+                          <td class="line" height="1" style="line-height: 1px;font-size:20px;border-bottom: 2px solid #FBCB04; mso-line-height-rule:exactly;"  > </td>
+                        </tr>
+                      </table>
+                        
+                        
+                        
+                    <!-- Two column row #3 Osaka  --> 
+                              <!-- Two column row #1 Arima  --> 
+           		<div align="center" class="two-col" style="text-align: center; font-size:0 "> <!-- font size 0 so that column can sit side by side -->
+                      <!--[if mso]>
+                        <table role="presentation" width="100%">
+                        <tr>
+                        <td style="width:50%; padding: 10px;" valign="middle">
+                      <![endif]-->
+                      <div   class="column" style="padding-top:10px;padding-bottom:10px;mso-padding-bottom-alt: 2px;width: 100%; max-width: 290px; display:inline-block; vertical-align:middle; ">
+                       <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                         <tr>
+                           <td align="center">
+                              
+                            <img align="center" class="image-block" src="https://i.ibb.co/Y2yBRdf/osaka.jpg" width="260" alt="osaka" style="display:inline-block;width:280px;max-width:95%;height:auto; text-align: center; margin: 0 auto;"/>
+                          
+                      
+                           </td>
+                         </tr>
+                        </table>
+                        
+                      </div>
+                      <!--[if mso]>
+                        </td>
+                        <td style="width:50%;" valign="middle">
+                      <![endif]-->
+                      <div  class="column" style="padding-top:10px;padding-bottom:10px;mso-padding-bottom-alt: 2px; width: 100%; max-width: 280px; display:inline-block; vertical-align:top; text-align: left;mso-padding-top-alt:-2px;">
+                       <div style="padding:10px; padding-bottom: 5px;font-size:14px;line-height:18px;text-align:left;">
+                          <h4 class="one-column text" style="Margin: 0; letter-spacing: 1.2px;  text-transform: uppercase;color:#F4F3EB ;font-family: Poppins, sans-serif; font-size: 21px; font-weight: bold; line-height: 1;margin-top: 5px;">Osaka</h4>
+                          <p style= "Margin: 0; color: #F4F3EB; font-family: Poppins, sans-serif; font-size: 16px;
+                          margin-top: 15px;padding-bottom: 18px;mso-margin-bottom-alt:15px;
+                           font-weight: normal; line-height: 25px;">
+Visit the second biggest city of Japan with its rich history in comedy and food.                          </p>
+                           <!-- Read More Button-->
+                          <div align="left" role="presentation" style="">
+                            <!--[if mso]>
+                              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" 
+                                href="http://www.https://visit.arima-onsen.com/"
+                                style="height:40px;v-text-anchor:middle;width:120px;font-size:15px;" 
+                                arcsize="8%" 
+                                stroke="f" 
+                                fillcolor="#FBCB04">
+                              <w:anchorlock/>
+                              <center>
+                            <![endif]-->
+                            <a class="button-border"  href="http://www.https://visit.arima-onsen.com/" style="background-color:#FBCB04;border-radius:5px;color:#0D051C;display:inline-block;font-family:Lato,sans-serif;font-size:15px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:120px;-webkit-text-size-adjust:none; ">Read More
+                            </a>
+                              <!--[if mso]>
+                              </center>
+                            </v:roundrect>
+                            <![endif]-->
+                            </div>        
+                         </div>
+                      </div>
+                      <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                      <![endif]-->
+                    </div>
+                        
+                        
+                        
+                   <!-- horizontal line break v3 -->
+                <table width="95%" border="0" cellpadding="0" cellspacing="0" align="center"  style="margin:0 auto;" >
+                  <tr>
+                    <td class="line" height="1" style="line-height: 1px;font-size:20px;border-bottom: 2px solid #FBCB04; mso-line-height-rule:exactly;"  > </td>
+                  </tr>
+                </table>
+				
+                        
+                <!-- space -->         
+                <table bgcolor="#0D051C"
+                width = "100%" 
+                style="border-spacing:0;mso-shading:#0D051C" 
+                role="presentation"   
                 align="center"
                 border="0"
                 cellpadding="0"
-                cellspacing="0"
-                role="presentation"
-                width="90%">
-                  <tr>
-                    <td class="text-padding" align="center" style="Margin: 0; line-height: 27px; font-size: 16px; font-weight: normal; font-family: Lato; " >
-                      <p style="Margin: 0;" >
-                      From the bustling streets of Tokyo to the tranquil countryside, there is something for everyone to enjoy in this fascinating country. Immerse yourself in the unique culture, try delicious local cuisine, and explore the beautiful temples and gardens. Come and experience the magic of Japan for yourself.
-                      </p>
-                    </td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- END OF MAIN ARTICLE -->
-
-
-          <!-- START OF BREAK-->
-          <tr>
-            <td align="center">
-              <table 
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="90%"
-              >
-                  <tr>
-                    <td style="padding: 15px">
-                      <hr class="heading-line" style="border: 0.5px solid #003e7e"  width="535">
-                    </td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- END OF BREAK -->
-
-
-
-          <!-- START OF ARTICLE #1 -->
-          <tr>
-            <td align="center">
-              <table 
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="540"
-              class="responsive-table"
-              
-              >
-                  <tr>
-                    <td width="260" class="full-block full-width" > 
-                      <table 
-                      align="center"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      role="presentation"
-                      width="100%"
-                      height="100%"
-                     >
-                          <tr>
-                            <td >
-                              <img class="content" src="https://i.ibb.co/SKvHsmd/ryokan.jpg" alt="ryokan" border="0" style="width: 260px; border-radius: 3px; display: block; border:none"
-                              width="260">
-                            </td>
-                          </tr>
-                      </table>
-                    </td>
-                    <td class="none" width="10" height="20">&nbsp;</td>
-                    <td width="260" class="full-block-280 ">
-                      <table 
-                      align="center"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      role="presentation"
-                      >
-                          <tr>
-                            <td align="left">
-                              <h4 class="one-column text" style="Margin: 0; color: #000000; font-family: Lato, sans-serif; font-size: 20px; font-weight: 700; line-height: 1;">Arima</h4>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p style= "Margin: 0; color: #000000; font-family: Lato, sans-serif; font-size: 16px;
-                              padding-top: 10px;
-                               font-weight: normal; line-height: 25px;">
-                               Discover the famous ancient hot spring town steeped with a rich history.
-                              </p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td align="left" style="padding-top: 18px;">
-                              <table cellpadding="0" cellspacing="0" border="0" role="presentation">
-                                  <tr>
-                                    <td>
-                                      <a href="http://www.https://visit.arima-onsen.com/" target="_blank" style="font-size:15px; color:white; font-family: Lato, sans-serif; padding: 10px 20px; border-radius:5px; background-color: #003e7e; text-decoration: underline;
-                                      display: inline-block;">Read More</a>
-                                    </td>
-                                  </tr>
-                              </table>
-                            </td>
-                          </tr>
-                      </table>
-                    </td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- END OF ARTICLE #1 -->
-
-
-          <!-- WHITE SPACE -->
-          <tr>
-            <td>
-              <table 
-              width = "100%" 
-              style="border-spacing:0;" 
-              role="presentation"   
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0">
-                  <tr>
-                    <td width="80px" height="10px">&nbsp;</td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- WHITE SPACE -->
-
-
-          <!-- START OF BREAK-->
-          <tr>
-            <td align="center">
-              <table 
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="90%"
-              >
-                  <tr>
-                    <td class="line" style="border: 0.5px solid #003e7e; width: 535px; margin:0; padding:0; flex-grow: inherit; margin-left:26px; text-align: left;" width="30%">
-                      <!-- <hr style="border: 0.5px solid #003e7e"  width="535"> -->
-                    </td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- END OF BREAK -->
-
-
-          <!-- WHITE SPACE -->
-          <tr>
-            <td>
-              <table 
-              width = "100%" 
-              style="border-spacing:0;" 
-              role="presentation"   
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0">
-                  <tr>
-                    <td width="80px" height="10px">&nbsp;</td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- WHITE SPACE -->
-
-
-          <!-- START OF ARTICLE #2 -->
-          <tr>
-            <td align="center">
-              <table 
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="540"
-              >
-                  <tr>
-                    <td width="260" class="full-block full-width" > 
-                      <table 
-                      align="center"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      role="presentation"
-                      width="100%"
-                      height="100%"
-                      >
-                          <tr>
-                            <td>
-                              <img class="content" src="https://i.ibb.co/HPK7xXq/kyoto.jpg" alt="kyoto" border="0" style="width: 260px; border-radius: 3px; display: block; border:none"
-                              width="260">
-                            </td>
-                          </tr>
-                      </table>
-                    </td>
-                    <td class="none" width="10" height="20">&nbsp;</td>
-                    <td width="260" class="full-block-280" >
-                      <table 
-                      align="center"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      role="presentation"
-                      width="100%">
-                          <tr>
-                            <td align="left">
-                              <h4 style="Margin: 0; color: #000000; font-family: Lato, sans-serif; font-size: 20px; font-weight: 700; line-height: 1;">Kyoto</h4>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p style= "Margin: 0; color: #000000; font-family: Lato, sans-serif; font-size: 16px;
-                              padding-top: 10px;
-                               font-weight: normal; line-height: 25px;">
-                               The former imperial capital of Japan, is a city filled with rich beauty and history.
-                              </p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td align="left" style="padding-top: 18px;">
-                              <table cellpadding="0" cellspacing="0" border="0" role="presentation">
-                                  <tr>
-                                    <td>
-                                      <a href="https://kyoto.travel/en/" target="_blank" style="font-size:15px; color:white; font-family: Lato, sans-serif; padding: 10px 20px; border-radius:5px; background-color: #003e7e; text-decoration: underline;
-                                      display: inline-block;">Read More</a>
-                                      </td>
-                                  </tr>
-                              </table>
-                            </td>
-                          </tr>
-                      </table>
-                    </td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- END OF ARTICLE #2 -->
-
-          <!-- WHITE SPACE -->
-          <tr>
-            <td>
-              <table 
-              width = "100%" 
-              style="border-spacing:0;" 
-              role="presentation"   
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0">
-                  <tr>
-                    <td width="80px" height="10px">&nbsp;</td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- WHITE SPACE -->
-
-
-          <!-- START OF BREAK-->
-          <tr>
-            <td align="center">
-              <table 
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="90%"
-              >
-                  <tr>
-                    <td class="line" style="border: 0.5px solid #003e7e; width: 535px; margin:0; padding:0; flex-grow: inherit; margin-left:26px; text-align: left;" width="30%">
-                      <!-- <hr style="border: 0.5px solid #003e7e"  width="535"> -->
-                    </td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- END OF BREAK -->
-
-
-          <!-- WHITE SPACE -->
-          <tr>
-            <td>
-              <table
-              width = "100%" 
-              style="border-spacing:0;" 
-              role="presentation"   
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0">
-                  <tr>
-                    <td width="80px" height="10px">&nbsp;</td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- WHITE SPACE -->
-
-
-          <!-- START OF ARTICLE #3 -->
-          <tr>
-            <td align="center">
-              <table 
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="540"
-              >
-                 <tr>
-                    <td width="260" class="full-block full-width" > 
-                      <table 
-                      align="center"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      role="presentation"
-                      width="100%"
-                      height="100%">
-                          <tr>
-                            <td>
-                              <img class="content" src="https://i.ibb.co/Y2yBRdf/osaka.jpg" alt="osaka" border="0" style="width: 260px; border-radius: 3px; display: block; border:none"
-                              width="260">
-                            </td>
-                          </tr>
-                      </table>
-                    </td>
-                    <td class="none" width="10" height="20">&nbsp;</td>
-                    <td width="260" class="full-block-280">
-                      <table 
-                      align="center"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      role="presentation"
-                      width="100%">
-                          <tr>
-                            <td align="left">
-                              <h4 style="Margin: 0; color: #000000; font-family: Lato, sans-serif; font-size: 20px; font-weight: 700; line-height: 1;">Osaka</h4>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p style= "Margin: 0; color: #000000; font-family: Lato, sans-serif; font-size: 16px; padding-top: 10px;
-                               font-weight: normal; line-height: 25px;">
-                               Japan's second largest city, is a vibrant metropolis of food, fun & comedy.
-                              </p>
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td align="left" style="padding-top: 18px;">
-                              <table cellpadding="0" cellspacing="0" border="0" role="presentation">
-                                  <tr>
-                                    <td>
-                                      <a href="https://osaka-info.jp/en/" target="_blank" style="font-size:15px; color:white; font-family: Lato, sans-serif; padding: 10px 20px; border-radius:5px; background-color: #003e7e; text-decoration: underline;
-                                      display: inline-block;">Read More</a>
-                                    </td>
-                                  </tr>
-                              </table>
-                            </td>
-                          </tr>
-                      </table>
-                    </td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- END OF ARTICLE #3 -->
-
-          <!-- WHITE SPACE -->
-          <tr>
-            <td>
-              <table 
-              width = "100%" 
-              style="border-spacing:0;" 
-              role="presentation"   
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0">
-                  <tr>
-                    <td width="80px" height="10px">&nbsp;</td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- WHITE SPACE -->
-
-
-          <!-- START OF BREAK-->
-          <tr>
-            <td align="center">
-              <table 
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="90%"  
-              >
-                  <tr>
-                    <td class="line" style="border: 0.5px solid #003e7e; width: 535px; margin:0; padding:0; flex-grow: inherit; margin-left:26px; text-align: left;" width="30%">
-                      <!-- <hr style="border: 0.5px solid #003e7e"  width="535"> -->
-                    </td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- END OF BREAK -->
-
-
-          <!-- WHITE SPACE -->
-          <tr>
-            <td>
-              <table
-              width = "100%" 
-              style="border-spacing:0;" 
-              role="presentation"   
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0">
-                  <tr>
-                    <td width="80px" height="10px">&nbsp;</td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- WHITE SPACE -->
-
-
-          <!-- START OF FOLLOW US-->
-          <tr>
-            <td align="center" style="padding-top:20px">
-              <table
-              align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" width="90%"
-              >
+                cellspacing="0">
+                    <tr>
+                      <td width="80px" height="25" style="line-height:25px;">&nbsp;</td>
+                    </tr>
+                </table>
+                        
+                        
+                 <!-- Follow us on Social Media -->
+                  <table
+                  width = "90%" 
+                  style="border-spacing:0; border:0; padding-top:20px; padding-bottom:5px;" 
+                  role="presentation"   
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  bgcolor="#0B0019 ">
+                      <tr>
+                        <td align="center" >
+                          <h2 style="Margin: 0;   font-weight: 400;
+                            font-size: 28px;
+                            font-family: 'Caprasimo', sans-serif; 
+                            color: #F4F3EB;">Follow Us On Social Media</h2>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td  align="center">
+                          <p class="sm-text-padding" style="Margin: 0; margin: 5px;padding-top: 22px;line-height: 24px; text-decoration: none; font-size: 16px;  color: #F4F3EB; font-family: Poppins, sans-serif; ">Follow us on social media for the latest information about awesome giveaways, amazing hotels, interesting events & just cool things to do around Japan. Use #Japanbliss for a chance to be featured on our website.
+                          </p>
+                        </td>
+                      </tr>
+                  </table>        
+                        
+                 <!-- white space break -->
+              <table bgcolor="" width="100%" cellpadding="0" cellspacing="0" role="presentation" bgcolor="#0D051C" style="mso-shader:#0D051C;background-color: #0D051C; ">
                 <tr>
-                  <td align="center">
-                    <h2 style="Margin: 0; font-size: 23px; font-weight: 700; color: #000000; font-family: Lato, sans-serif; line-height: 1; ">Follow Us On Social Media</h2>
+                  <td bgcolor="" height="20" style="mso-shader:#0D051C; line-height:20px;mso-line-height-rule:exactly;">
+                    &nbsp;
                   </td>
                 </tr>
+              </table>
+                        
+          <!--5 columns Start of Social Media Icons -->  
+          		
+         	 <div align="center" id="social-media" style="text-align:center;width:100%;max-width:300px;display:inline-block;vertical-align:bottom;margin: 0 auto;" >
+						<!--[if (gte mso 9)|(IE)]>
+										<table align="center" width="50%" border="0" cellpadding="0" cellspacing="0" style="border-spacing:0;font-family:sans-serif, 'Roboto'; text-align:center; mso-margin-alt: auto;" >
+										<tr>
+										<td  valign="top" style="mso-padding-top-alt;mso-padding-bottom-alt:0;mso-padding-right-alt:0;mso-padding-left-alt:0;" >
+										<![endif]-->					
+             <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" style="text-align:center;border-spacing:0;font-family:sans-serif, 'Roboto';" >
+												<tr>
+													<td class="padding-20" style="padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;" >
+														<table align="center" class="contents" border="0" cellpadding="0" cellspacing="0" style="text-align:center;border-spacing:0;font-family:sans-serif, 'Roboto';width:100%;min-width:100%;font-size:14px;text-align:left;" >
+															<tr>
+																<td style="text-align:center;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+																	<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0;font-family:sans-serif, 'Roboto';" >
+																		<tr>
+																			<td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                                        <img src="https://i.ibb.co/jgg313b/icons8-facebook-50-1.png" width="40" height="40" alt="Facebook" style="border-width:0;height:auto;max-width:40px;width:40px;" />
+																			</td>
+																			<td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                                        <img src="https://i.ibb.co/LYB3yc5/icons8-instagram-50-2.png"  width="40" height="40" alt="Instagram" style="border-width:0;height:auto;max-width:40px;width:40px;" />
+																			</td>
+																			<td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                                        <img src="https://i.ibb.co/BygX2Vj/icons8-linkedin-50.png" width="40" height="40" alt="linkedin" style="border-width:0;height:auto;max-width:40px;width:40px;" />
+																			</td>
+																			<td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                                        <img src="https://i.ibb.co/M5kNBNW/icons8-twitter-50-1.png" width="40" height="40" alt="twitter" style="border-width:0;height:auto;max-width:40px;width:40px;" />
+																			</td>
+																			<td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                                        <img src="https://i.ibb.co/C2qP09f/icons8-youtube-50.png" width="40" height="40" alt="youtube" style="border-width:0;height:auto;max-width:40px;width:40px;" />
+																			</td>
+																			
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+                                	<!--[if (gte mso 9)|(IE)]>
+										</td>
+										</tr>
+										</table>
+										<![endif]-->
+											</table>
+										</div>
+                
+               <!-- white space break -->
+              <table bgcolor="" width="100%" cellpadding="0" cellspacing="0" role="presentation" bgcolor="#0D051C" style="mso-shader:#0D051C;background-color: #0D051C; ">
                 <tr>
-                  <td  align="center">
-                    <p class="sm-text-padding" style="Margin: 0; padding-top: 22px;line-height: 24px; text-decoration: none; font-size: 16px; ">Follow us on social media for the latest information about awesome giveaways, amazing hotels, interesting events & just cool things to do around Japan. Use #Japanbliss for a chance to be featured on our website.
+                  <td bgcolor="" height="20" style="mso-shader:#0D051C; line-height:20px;mso-line-height-rule:exactly;">
+                    &nbsp;
+                  </td>
+                </tr>
+              </table>
+                        
+             
+                        
+                        
+              <!-- white space break -->
+              <table bgcolor="" width="100%" cellpadding="0" cellspacing="0" role="presentation" bgcolor="#F4F3EB" style="mso-shader:#F4F3EB;background-color: #F4F3EB; ">
+                <tr>
+                  <td bgcolor="" height="20" style="mso-shader:#F4F3EB; line-height:20px;mso-line-height-rule:exactly;">
+                    &nbsp;
+                  </td>
+                </tr>
+              </table>
+                        
+                        
+                        
+<!--                Two column row 1 Pictures 
+                    <div  width="100%" class="two-col" style="text-align: center; font-size:0;background-color: #F4F3EB;  "> font size 0 so that column can sit side by side
+                       [if mso]>
+                        <table role="presentation" width="100%">
+                        <tr>
+                        <td style="width:50%; padding: 10px;" valign="middle">
+                      <![endif]
+                      <div align="center" class="column" style="padding-top:10px;padding-bottom:10px;width: 100%; max-width: 290px; display:inline-block; vertical-align:middle;">
+                       
+                          <p style="margin:0;font-family:Arial,sans-serif;font-size:14px;line-height:18px;">
+                            <img class="image-block" src="https://i.ibb.co/7j4Ddz8/arima-2.jpg" width="280" alt="ryokan" style="display:block;width:280px;max-width:100%;height:auto; "/>
+                          </p>
+                      
+                      </div>
+                      [if mso]>
+                        </td>
+                        <td style="width:50%;padding: 10px;" valign="middle">
+                      <![endif]
+                   <div align="center" class="column" style="padding-top:10px;padding-bottom:10px;width: 100%; max-width: 290px; display:inline-block; vertical-align:middle;">
+                       
+                          <p style="margin:0;font-family:Arial,sans-serif;font-size:14px;line-height:18px;">
+                            <img class="image-block" src="https://i.ibb.co/2k8f54K/floating-house.jpg" width="280" alt="ryokan" style="display:block;width:280px;max-width:100%;height:auto; "/>
+                          </p>
+                      
+                      </div>
+                      [if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                      <![endif]
+                    </div>
+                        
+                        
+                        
+                   Two column row 2 Pictures 
+                    <div width="100%" class="two-col" style="text-align: center; font-size:0;background-color: #F4F3EB;  "> font size 0 so that column can sit side by side
+                       [if mso]>
+                        <table role="presentation" width="100%">
+                        <tr>
+                        <td style="width:50%; padding: 10px;" valign="middle">
+                      <![endif]
+                      <div align="center" class="column" style="padding-top:10px;padding-bottom:10px;width: 100%; max-width: 290px; display:inline-block; vertical-align:middle;">
+                          <p style="margin:0;font-family:Arial,sans-serif;font-size:14px;line-height:18px;">
+                            <img class="image-block" src="https://i.ibb.co/ySnd59Y/arima.jpg" width="260" alt="ryokan" style="display:block;width:280px;max-width:100%;height:auto; "/>
+                          </p>
+                      
+                      </div>
+                      [if mso]>
+                        </td>
+                        <td style="width:50%;padding: 10px;" valign="middle">
+                      <![endif]
+                   <div align="center"  class="column" style="padding-top:10px;padding-bottom:10px;width: 100%; max-width: 290px; display:inline-block; vertical-align:middle;">
+                       
+                          <p style="margin:0;font-family:Arial,sans-serif;font-size:14px;line-height:18px;">
+                            <img class="image-block" src="https://i.ibb.co/4V4fn0B/japan-autumn.jpg" width="260" alt="ryokan" style="display:block;width:280px;max-width:100%;height:auto; "/>
+                          </p>
+                      
+                      </div>
+                      [if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                      <![endif]
+                    </div> -->
+                        
+                        
+                     <!-- Two Column Pictures row 3-->
+                 <div align="center" width="100%"class="two-col" style="background-color: #F4F3EB;text-align: center; font-size:0 "> <!-- font size 0 so that column can sit side by side -->
+                        <!--[if mso]>
+                          <table role="presentation" width="100%">
+                          <tr>
+                          <td style="width: 48%; padding: 10px;" valign="middle">
+                        <![endif]-->
+                        <table  align="center" class="column image-block " style="width: 100%; max-width: 280px; display:inline-block; vertical-align:middle;">
+                          <tr>
+                            <td align="center"  style="padding:10px; font-size:14px;line-height:18px;">
+                              <a href="#" target="_blank">
+                                <img class="image-block" width="260" src="https://i.ibb.co/ySnd59Y/arima.jpg" alt="japan-1" border="0" style="display:block; border: none; ">
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--[if mso]>
+                          </td>
+                          <td style="width: 48%;padding: 10px;" valign="middle">
+                        <![endif]-->
+                        <table  align="center" class="column image-block" style="width: 100%; max-width: 280px; display:inline-block; vertical-align:middle;">
+                          <tr>
+                            <td  align="center" style="padding:10px; font-size:14px;line-height:18px;">
+                              <a href="#" target="_blank">
+                                <img class="image-block" width="260" src="https://i.ibb.co/4V4fn0B/japan-autumn.jpg" alt="japan-2" border="0" style="display:block; border: none; ">
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--[if mso]>
+                          </td>
+                          </tr>
+                          </table>
+                        <![endif]-->
+                      </div>
+                        
+                        
+                        
+                                 <!-- Two Column Pictures row 4-->
+                      <div align="center" width="100%"class="two-col" style="background-color: #F4F3EB;text-align: center; font-size:0 "> <!-- font size 0 so that column can sit side by side -->
+                        <!--[if mso]>
+                          <table role="presentation" width="100%">
+                          <tr>
+                          <td style="width: 48%; padding: 10px;" valign="middle">
+                        <![endif]-->
+                        <table  align="center" class="column image-block " style="width: 100%; max-width: 280px; display:inline-block; vertical-align:middle;">
+                          <tr>
+                            <td align="center"  style="padding:10px; font-size:14px;line-height:18px;">
+                              <a href="#" target="_blank">
+                                <img class="image-block" width="260" src="https://i.ibb.co/7j4Ddz8/arima-2.jpg" alt="japan-3" border="0" style="display:block; border: none; ">
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--[if mso]>
+                          </td>
+                          <td style="width: 48%;padding: 10px;" valign="middle">
+                        <![endif]-->
+                        <table  align="center" class="column image-block" style="width: 100%; max-width: 280px; display:inline-block; vertical-align:middle;">
+                          <tr>
+                            <td  align="center" style="padding:10px; font-size:14px;line-height:18px;">
+                              <a href="#" target="_blank">
+                                <img class="image-block" width="260" src="https://i.ibb.co/2k8f54K/floating-house.jpg" alt="japan-4" border="0" style="display:block; border: none; ">
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--[if mso]>
+                          </td>
+                          </tr>
+                          </table>
+                        <![endif]-->
+                      </div>
+                        
+              <!-- white space break -->
+              <table bgcolor="" width="100%" cellpadding="0" cellspacing="0" role="presentation" bgcolor="#F4F3EB" style="mso-shader:#F4F3EB;background-color: #F4F3EB; ">
+                <tr>
+                  <td bgcolor="" height="20" style="mso-shader:#F4F3EB; line-height:20px;mso-line-height-rule:exactly;">
+                    &nbsp;
+                  </td>
+                </tr>
+              </table>
+                        
+                        
+               <!-- Single Column Footer  -->
+                <table bgcolor="#0D051C" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="95%" class="responsive-table" style="background-color: #0B0019; color: #FFCC00; padding-top: 20px; padding-bottom: 20px;">
+                  <tr>
+                    <td align="center">
+                      <p style="Margin:0; font-size: 15px; font-family: font-family: Poppins, sans-serif; font-weight: bold;line-height:20px; letter-spacing: 1.5; color:#F4F3EB;">We value your feedback! 
                     </p>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- END OF FOLLOW US-->
-          
-
-          <!-- START OF SOCIAL MEDIA ICONS-->
-          <tr>
-            <td align="center" style="padding-top: 20px;">
-              <table
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="60%">
-                  <tr>
-                    <td align="center">
-                      <a href="https://www.facebook.com" target="_blank">
-                        <img src="https://i.ibb.co/FBZWtJR/circle-facebook.png" alt="circle-facebook" border="0"width="40" style="display:block; border: none;">
-                      </a>
-                    </td>
-                    <td width="10">&nbsp;</td>
-                    <td align="center">
-                      <a href="https://www.instagram.com" target="_blank">
-                        <img src="https://i.ibb.co/WfYCbLx/circle-instagram.png" alt="circle-instagram" border="0" width="40" style="display:block; border: none;">
-                      </a>
-                    </td>
-                    <td width="10">&nbsp;</td>
-                    <td align="center">
-                      <a href="https://www.linkedin.com" target="_blank">
-                        <img src="https://i.ibb.co/0hQHPg0/circle-linkedin.png" alt="circle-linkedin" border="0" width="40" style="display:block; border: none;">
-                      </a>
-                    </td>
-                    <td width="10">&nbsp;</td>
-                    <td align="center">
-                      <a href="https://www.twitter.com" target="_blank">
-                        <img src="https://i.ibb.co/txhBrcJ/circle-twitter.png" alt="circle-twitter" border="0"width="40" style="display:block; border: none; padding: 0">
-                      </a>
-                    </td>
-                    <td width="10">&nbsp;</td>
-                    <td align="center">
-                      <a href="https://www.youtube.com" target="_blank">
-                        <img src="https://i.ibb.co/Vq3Wvcb/circle-youtube.png" alt="circle-youtube" border="0" width="40" style="display:block; border: none; padding: 0">
-                      </a>
                     </td>
                   </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- END OF SOCIAL MEDIA ICONS-->
-
-
-          <!-- WHITE SPACE -->
-          <tr>
-            <td>
-              <table 
-              width = "100%" 
-              style="border-spacing:0;" 
-              role="presentation"   
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0">
                   <tr>
-                    <td width="80px" height="30px">&nbsp;</td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- WHITE SPACE -->
-
-          <!-- START OF 1st IMAGES ROW-->
-          <tr>
-            <td align="center" >
-              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="540px" height="100%">
-                  <tr>
-                    <td  class="full-block full-width" width="260" height="100%">
-                      <a>
-                        <img class="content"  src="https://i.ibb.co/7j4Ddz8/arima-2.jpg" alt="arima-2" border="0" width="260px" style="display:block; border: none; border-radius: 3px; cursor: pointer;">
-                      </a>
-                    </td>
-                    <td class="none" width="20" height="20">&nbsp;</td>
-                    <td  class="full-block full-width" width="260" height="100%" >
-                      <a>
-                        <img class="content"  src="https://i.ibb.co/2k8f54K/floating-house.jpg" alt="floating-house" border="0" width="260px" style="display:block; border: none; border-radius: 3px; cursor: pointer;">
-                      </a>
-                    </td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- END OF 1st IMAGES ROW-->
-
-
-          <!-- WHITE SPACE -->
-          <tr>
-            <td>
-              <table 
-              width = "100%" 
-              style="border-spacing:0;" 
-              role="presentation"   
-              align="center"
-              border="0"
-              cellpadding="0"
-              cellspacing="0">
-                  <tr>
-                    <td class="image-row-gap" width="80px" height="5px">&nbsp;</td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- WHITE SPACE -->
-
-
-
-          <!-- START OF 2nd IMAGES ROW-->
-          <tr>
-            <td align="center">
-              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="540px" height="100%">
-                  <tr>
-                    <td class="full-block full-width" width="260" height="100%">
-                      <a>
-                        <img class="content" src="https://i.ibb.co/ySnd59Y/arima.jpg" alt="arima-3" border="0" width="260px" style="display:block; border: none; border-radius: 3px; cursor: pointer;">
-                      </a>
-                    </td>
-                    <td class="none" width="20" height="20">&nbsp;</td>
-                    <td class="full-block full-width" width="260" height="100%" >
-                      <a>
-                        <img class="content" src="https://i.ibb.co/4V4fn0B/japan-autumn.jpg" alt="japan-autumn" border="0" width="260px" style="display:block; border: none; border-radius: 3px; cursor: pointer;">
-                      </a>
-                    </td>
-                  </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- END OF 2nd IMAGES ROW-->
-
-
-          <!-- START OF FOOTER -->
-          <tr>
-            <td align="center" style="padding-top: 25px; padding-bottom: 25px;">
-              <table 
-              align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" class="responsive-table">
-                  <tr>
-                    <td align="center">
-                      <p style="Margin:0; font-size: 12px; font-family: Lato, sans-serif;">We value your feedback! Feel free to email us at 
-                      <a href="#" target="_blank" style="color: blue; text-decoration: underline; line-height: 24px; font-weight: 400;">
+                    <td align="center" style="mso-margin-bottom-alt:30px;">
+                      <p style="font-family: Poppins, sans-serif;font-size: 14px; line-height:10px;color:#F4F3EB;mso-padding-bottom-alt:25px;">Feel free to email us at 
+                      <a href="#" target="_blank" style="color: blue; text-decoration: underline; line-height: 10px; font-weight: 400;font-size: 14px;color: #FBCB04;">
                       feedback@japanbliss.com
                       </a>
                     </p>
                     </td>
                   </tr>
                   <tr>
-                    <td align="center" style=" font-family: Lato,sans-serif; font-size: 12px; font-weight: 400; line-height: 24px">
-                      <p style="Margin:0; padding-top: 8px; font-family: Lato,sans-serif;">
+                    <td align="center" style=" mso-padding-top-alt:30px;font-family: Poppins,sans-serif; font-size: 14px; font-weight: 400; line-height: 8px;color: #F4F3EB;">
+                      <p style="Margin:0;  font-family: Lato,sans-serif;mso-padding-top-alt:20px;">
                         Copyright © 2023 Japan Bliss. All rights reserved.
                       </p>
                     </td>
                   </tr>
                   <tr>
-                    <td align="center" style=" font-size: 12px; font-weight: 400; line-height: 24px">
-                      <p style="Margin:0; padding-top: 8px; font-family: Lato,sans-serif;">
+                    <td align="center" style=" font-size: 12px; font-weight: 400; line-height: 14px">
+                      <p style="Margin:0; padding-top: 25px; font-family: Lato,sans-serif;font-size: 12px; color:#F4F3EB;">
                         Want to change how you receive these emails?
                       </p>
                     </td>
                   </tr>
                   <tr>
                     <td align="center" style ="padding-top: 5px">
-                      <p style="Margin:0; font-size: 12px; font-family: Lato, sans-serif;">You can
-                      <a href="#" target="_blank" style="color: blue; text-decoration: underline; line-height: 24px; font-weight: 400;">
+                      <p style="Margin:0; font-size: 12px; font-family: Lato, sans-serif;color:#F4F3EB;">You can
+                      <a href="#" target="_blank" style="color: blue; text-decoration: underline; line-height: 14px; font-weight: 400;color: #FBCB04;">
                       update your preferences
-                      </a> or <a href="#" target="_blank" style="color: blue; text-decoration: underline; line-height: 24px; font-weight: 400;">
+                      </a> or <a href="#" target="_blank" style="color: blue; text-decoration: underline; line-height: 14px; font-weight: 400;color: #FBCB04;">
                         unsubscribe
                         </a>
                     </p>
                     </td>
                   </tr>
               </table>
-            </td>
-          </tr>
-          <!-- END OF FOOTER -->
+                        
+                        
+    
 
+                        
+                  
+                   <!-- white space break -->
+                <div class="spacer" style="line-height: 20px; height: 20px; mso-line-height-rule: exactly;background-color: #0B0019;">&nbsp;</div>
 
-          <!-- END OF HTML TABLE-->
-        </tr>
-      </table>
-      <!-- Main Table ( remove comment ) -->
-      <!--[if (gte mso 9 | (IE)]>
-          </td>
-          </tr>
+                        
+                        
+                  <!--[if mso]>
+ 											 </td> 
+                    </tr>
+                    </table>
+                  <![endif]-->  
+                </td>
+            </tr>
         </table>
-      <![endif]-->
-      
-      </div>
-    </center>
-  </body>
+    </div>
+</body>
 </html>
